@@ -236,7 +236,18 @@ const PillNav = ({
               logoRef.current = el;
             }}
           >
-            <img src={logo} alt={logoAlt} ref={logoImgRef} />
+          {logo ? (
+  <img 
+    src={logo} 
+    alt={logoAlt} 
+    ref={logoImgRef} 
+    className="h-full w-auto object-contain" 
+  />
+) : (
+  <div className="w-8 h-8 flex items-center justify-center font-bold text-white">
+    NS.
+  </div>
+)}
           </Link>
         ) : (
           <a
@@ -248,7 +259,18 @@ const PillNav = ({
               logoRef.current = el;
             }}
           >
-            <img src={logo} alt={logoAlt} ref={logoImgRef} />
+            {logo ? (
+  <img 
+    src={logo} 
+    alt={logoAlt} 
+    ref={logoImgRef} 
+    className="h-full w-auto object-contain" 
+  />
+) : (
+  <div className="w-8 h-8 flex items-center justify-center font-bold text-white">
+    NS.
+  </div>
+)}
           </a>
         )}
 
