@@ -4,7 +4,6 @@ import { gsap } from 'gsap';
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin';
 import './PillNav.css';
 
-// Register ScrollToPlugin to prevent Vercel build crashes
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollToPlugin);
 }
