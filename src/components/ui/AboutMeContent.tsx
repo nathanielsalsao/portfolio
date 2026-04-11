@@ -9,7 +9,7 @@ export const AboutMeContent = () => {
     <>
 
       <BentoCard className="md:col-span-2 lg:col-span-3 lg:row-span-2 relative overflow-hidden p-6 md:p-10 lg:p-14 flex flex-col justify-center">
-        {/* glow background */}
+   
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_var(--mouse-x)_var(--mouse-y),rgba(255,255,255,0.14),transparent_45%)] pointer-events-none" />
 
         <div className="relative z-10 mb-6 md:mb-8">
@@ -65,10 +65,10 @@ export const AboutMeContent = () => {
 
 <BentoCard className="md:col-span-1 lg:col-span-1 lg:row-span-1 p-6 md:p-8 lg:p-10 relative overflow-hidden group flex flex-col justify-between">
 
-  {/* background glow */}
+
   <div className="absolute inset-0 bg-[radial-gradient(circle_at_var(--mouse-x)_var(--mouse-y),rgba(255,255,255,0.08),transparent_50%)] pointer-events-none" />
 
-  {/* header */}
+
   <div className="relative z-10 flex items-center justify-between mb-6">
     <h4 className="text-white/40 text-[10px] md:text-[11px] font-black uppercase tracking-[0.3em]">
       Mastered Stack
